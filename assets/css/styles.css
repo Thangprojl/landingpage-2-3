@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "poppins", sans-serif;
+}
+:root {
+    --primary-color: #1ebfc1;
+}
+/* Common */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 45px);
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 108px;
+    height: 48px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+}
